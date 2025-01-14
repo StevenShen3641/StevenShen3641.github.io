@@ -4,8 +4,8 @@ import { metaData } from "../config";
 
 const navItems = {
   "/blog": { name: "Blog" },
-  "/projects": { name: "Projects" },
-  "/photos": { name: "Photos" },
+  "/teaching": { name: "Teaching" },
+  "/music": { name: "Music" },
 };
 
 export function Navbar() {
@@ -22,7 +22,7 @@ export function Navbar() {
             <Link
               key={path}
               href={path}
-              className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative"
+              className="button flex align-middle relative"
             >
               {name}
             </Link>

@@ -60,7 +60,7 @@ html {
 }
 
 .prose a:hover {
-  @apply dark:decoration-neutral-400 decoration-neutral-600;
+  @apply dark:decoration-neutral-400 decoration-neutral-600 text-[#D74fff] dark:text-[#D74fff];
 }
 
 .prose .anchor:after {
@@ -94,6 +94,19 @@ html {
   /* Don't apply styles to next/image */
   @apply m-0;
 }
+
+.filter-purple {
+  filter: grayscale(100%) sepia(100%) hue-rotate(250deg) contrast(130%) saturate(300%) brightness(0.8);
+}
+
+.button{
+  @apply transition;
+}
+
+.button:hover {
+  @apply duration-200 text-[#D74fff];
+}
+
 
 .prose h2,
 h3,

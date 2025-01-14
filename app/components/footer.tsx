@@ -6,7 +6,7 @@ import {
   FaGithub,
   FaInstagram,
   FaRss,
-  FaLinkedinIn,
+  FaSpotify,
 } from "react-icons/fa6";
 import { TbMailFilled } from "react-icons/tb";
 import { metaData, socialLinks } from "app/config";
@@ -21,17 +21,33 @@ function SocialLink({ href, icon: Icon }) {
   );
 }
 
+function EmailLink({ href, icon: Icon }) {
+  return (
+    <a href={href} rel="noopener noreferrer">
+      <Icon />
+    </a>
+  );
+}
+
 function SocialLinks() {
   return (
-    <div className="flex text-lg gap-3.5 float-right transition-opacity duration-300 hover:opacity-90">
-      <SocialLink href={socialLinks.twitter} icon={FaXTwitter} />
-      <SocialLink href={socialLinks.github} icon={FaGithub} />
-      <SocialLink href={socialLinks.instagram} icon={FaInstagram} />
-      <SocialLink href={socialLinks.linkedin} icon={FaLinkedinIn} />
-      <SocialLink href={socialLinks.email} icon={TbMailFilled} />
-      <a href="/rss.xml" target="_self">
+    <div className="flex text-lg gap-3.5 float-right">
+      <div className="button">
+        <SocialLink href={socialLinks.twitter} icon={FaXTwitter} />
+      </div>
+      <div className="button">
+        <SocialLink href={socialLinks.github} icon={FaGithub} />
+      </div>
+      {/* <SocialLink href={socialLinks.instagram} icon={FaInstagram} /> */}
+      <div className="button">
+        <SocialLink href={socialLinks.spotify} icon={FaSpotify} />
+      </div>
+      <div className="button">
+        <EmailLink href={`mailto:${socialLinks.email}`} icon={TbMailFilled} />
+      </div>
+      {/* <a href="/rss.xml" target="_self">
         <FaRss />
-      </a>
+      </a> */}
     </div>
   );
 }
@@ -42,7 +58,7 @@ export default function Footer() {
       <time>© {YEAR}</time>{" "}
       <a
         className="no-underline"
-        href={socialLinks.twitter}
+        // href={socialLinks.twitter}
         target="_blank"
         rel="noopener noreferrer"
       >

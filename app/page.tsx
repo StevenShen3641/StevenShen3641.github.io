@@ -4,11 +4,11 @@ import { socialLinks } from "./config";
 export default function Page() {
   return (
     <section>
-      <a href={socialLinks.twitter} target="_blank">
+      <a href={socialLinks.spotify} target="_blank">
         <Image
           src="/profile.png"
           alt="Profile photo"
-          className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5 grayscale hover:grayscale-0"
+          className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5 filter-purple hover:grayscale-0"
           unoptimized
           width={160}
           height={160}
@@ -16,52 +16,55 @@ export default function Page() {
         />
       </a>
 
-      <h1 className="mb-8 text-2xl font-medium tracking-tight">
+      {/* <h1 className="mb-8 text-2xl font-medium tracking-tight">
         Portfolio, made simple!
-      </h1>
+      </h1> */}
 
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          A clean, fast, and lightweight portfolio template built with Next.js,
-          Vercel, and Tailwind CSS for optimal performance.
-        </p>
-        <p>
-          Nextfolio includes all the essentials for a stunning portfolio: SEO,
-          MDX support, RSS, Atom, & JSON feeds, analytics, tweet & YouTube
-          embeds, KaTeX integration, and{" "}
-          <a
-            target="_blank"
-            href="https://github.com/1msirius/Nextfolio?tab=readme-ov-file#features"
-          >
-            more
-          </a>
-          .
-        </p>
-        <p>
-          Nextfolio is{" "}
-          <a href={socialLinks.github} target="_blank">
-            open-source
+          I am a senior undergraduate at{" "}
+          <a href={"https://www.cuhk.edu.cn/en"} target="_blank">
+            The Chinese University of Hong Kong, Shenzhen
           </a>{" "}
-          and fully customizable, making it easy to add more features.
-        </p>
-        <p>
+          advised by{" "}
+          <a href={"https://pinjiahe.github.io/"} target="_blank">
+            Prof. Pinjia He.
+          </a>{" "}
+          My research focus broadly spans Software Engineering, Software
+          Security, and AI for SE. I was very fortunate to work with{" "}
           <a
-            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F1msirius%2FNextfolio"
+            href={"https://sites.google.com/site/kexinpeisite/"}
             target="_blank"
           >
-            Deploy
+            Prof. Kexin Pei
           </a>{" "}
-          your Nextfolio site with Vercel in minutes and follow the set up
-          instructions in the{" "}
-          <a href="/blog/getting-started">Getting Started</a> post.
+          at The University of Chicago as an undergraduate intern in the summer
+          of 2024.
         </p>
         <p>
-          Built and maintained by{" "}
-          <a href="https://imsirius.xyz/" target="_blank">
-            Sirius
+          I am also an amateur electronic music composer. My artist name is{" "}
+          <a
+            href={"https://open.spotify.com/artist/3SabvlpJbjgPlXk9RkhiaM"}
+            target="_blank"
+          >
+            Crystal Sand
           </a>
-          .
+          . My favorite genre is Melodic Progressive House, a traditional music
+          type that delivers the feelings of ocean, sunlight, and breeze (If
+          interested, take a listen to{" "}
+          <a
+            href={"https://emergent-music.com/emergent-shores"}
+            target="_blank"
+          >
+            Emergent Shores Music
+          </a>
+          ). My works have been released by Soluna Music, Progressive Dreams,
+          Sunset Horizon and other melodic music labels, and I am working hard
+          on it!
         </p>
+        <p></p>
+        <p></p>
+        <p></p>
       </div>
     </section>
   );
