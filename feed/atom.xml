@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stevenshen3641.github.io/</id>
     <title>Chihao Shen</title>
-    <updated>2024-12-26T17:22:05.011Z</updated>
+    <updated>2025-01-14T01:30:07.367Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="https://stevenshen3641.github.io/"/>
     <link rel="self" href="https://stevenshen3641.github.io/atom.xml"/>
     <subtitle>A clean, fast, and lightweight portfolio template built with Next.js, Vercel, and Tailwind CSS for optimal performance.</subtitle>
-    <rights>All rights reserved 2024, Chihao Shen</rights>
+    <rights>All rights reserved 2025, Chihao Shen</rights>
     <entry>
         <title type="html"><![CDATA[Custom MDX Examples]]></title>
         <id>https://stevenshen3641.github.io/blog/custom-mdx-examples</id>
