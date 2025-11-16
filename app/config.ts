@@ -8,9 +8,10 @@ export const metaData = {
 };
 
 export const socialLinks = {
-  twitter: "https://x.com/CrystalSandOff1",
+  googleScholar: "https://scholar.google.com/citations?user=AXxWZ3oAAAAJ&hl=en&oi=ao",
+  twitter: "https://x.com/ChihaoShen",
   github: "https://github.com/StevenShen3641",
   instagram: "https://www.instagram.com/crystalsandofficial/",
   spotify: "https://open.spotify.com/artist/3SabvlpJbjgPlXk9RkhiaM",
-  email: "chihaoshen@link.cuhk.edu.cn",
+  email: "stevencs@umd.edu",
 };

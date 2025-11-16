@@ -10,6 +10,7 @@
     "deploy": "gh-pages -d out"
   },
   "dependencies": {
+    "@google/model-viewer": "^4.0.0",
     "@types/node": "22.5.0",
     "@types/react": "18.3.4",
     "@types/react-dom": "18.3.0",

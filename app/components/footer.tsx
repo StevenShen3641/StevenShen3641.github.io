@@ -7,6 +7,7 @@ import {
   FaInstagram,
   FaRss,
   FaSpotify,
+  FaGoogleScholar,
 } from "react-icons/fa6";
 import { TbMailFilled } from "react-icons/tb";
 import { metaData, socialLinks } from "app/config";
@@ -32,6 +33,9 @@ function EmailLink({ href, icon: Icon }) {
 function SocialLinks() {
   return (
     <div className="flex text-lg gap-3.5 float-right">
+      <div className="button">
+        <SocialLink href={socialLinks.googleScholar} icon={FaGoogleScholar} />
+      </div>
       <div className="button">
         <SocialLink href={socialLinks.twitter} icon={FaXTwitter} />
       </div>

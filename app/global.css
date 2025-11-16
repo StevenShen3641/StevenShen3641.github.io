@@ -40,6 +40,7 @@ html {
 
 .prose {
   @apply text-[#333333] dark:text-[#D4D4D4];
+  max-width: 800px;
 }
 
 .prose .anchor {
