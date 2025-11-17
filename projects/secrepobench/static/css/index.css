@@ -846,3 +846,69 @@ td:nth-child(2) img.icon {
         margin-right: auto;
     }
 }
+
+
+/* --- REMOVE the base rules you listed (do not replace them) --- */
+
+
+/* No new base layout changes. */
+
+
+/* --- Add responsive wrap so narrow screens can line-break --- */
+
+@media (max-width: 1024px) {
+    /* Allow the Setup column to wrap on smaller screens */
+    #leaderboard #lb-table th:nth-child(2),
+    #leaderboard #lb-table td:nth-child(2) {
+        white-space: normal;
+        /* override any nowrap */
+        overflow-wrap: anywhere;
+        /* break long tokens if needed */
+        word-break: break-word;
+        /* extra safety */
+    }
+    /* Optional: keep numbers tight on the right without wrapping */
+    #leaderboard #lb-table th:nth-child(3),
+    #leaderboard #lb-table td:nth-child(3),
+    #leaderboard #lb-table th:nth-child(4),
+    #leaderboard #lb-table td:nth-child(4),
+    #leaderboard #lb-table th:nth-child(5),
+    #leaderboard #lb-table td:nth-child(5) {
+        white-space: nowrap;
+        text-align: right;
+    }
+    /* Slightly reduce density for small screens */
+    #leaderboard #lb-table {
+        font-size: 0.95rem;
+    }
+    #leaderboard #lb-table th,
+    #leaderboard #lb-table td {
+        padding: .45rem .5rem;
+        vertical-align: top;
+        /* wrapped Setup looks cleaner */
+    }
+}
+
+@media (max-width: 768px) {
+    #leaderboard #lb-table {
+        font-size: 0.9rem;
+    }
+    #leaderboard #lb-table th,
+    #leaderboard #lb-table td {
+        padding: .4rem .45rem;
+    }
+    /* Let long header labels wrap too if needed */
+    #leaderboard #lb-table th.sortable {
+        white-space: normal;
+    }
+}
+
+@media (max-width: 480px) {
+    #leaderboard #lb-table {
+        font-size: 0.85rem;
+    }
+    #leaderboard #lb-table th,
+    #leaderboard #lb-table td {
+        padding: .35rem .4rem;
+    }
+}
