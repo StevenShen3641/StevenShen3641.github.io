@@ -1,0 +1,3 @@
+[submodule "public/projects/secrepobench"]
+	path = public/projects/secrepobench
+	url = git@github.com:StevenShen3641/SecRepoBench-github-pages.git

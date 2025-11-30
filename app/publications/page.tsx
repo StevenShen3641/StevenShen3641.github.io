@@ -20,20 +20,7 @@ type Publication = {
 };
 
 const publications: Publication[] = [
-  {
-    venue: "Arxiv",
-    title: "SecRepoBench: Benchmarking Code Agents for Secure Code Completion in Real-World Repositories",
-    venue_detailed: "",
-    authors: [
-      { name: "Chihao Shen", underline: true },
-      { name: "Connor Dilgren" },
-      { name: "Purva Chiniya" },
-      { name: "Luke Griffith" },
-      { name: "Yu Ding" },
-      { name: "Yizheng Chen" },
-    ],
-    url: "https://www.arxiv.org/abs/2504.21205",
-  },
+
   {
     venue: "Arxiv",
     title: "Benchmarking Correctness and Security in Multi-Turn Code Generation",
@@ -48,6 +35,20 @@ const publications: Publication[] = [
       { name: "Yizheng Chen" },
     ],
     url: "https://www.arxiv.org/abs/2510.13859",
+  },
+  {
+    venue: "LLM4Code'26",
+    title: "SecRepoBench: Benchmarking Code Agents for Secure Code Completion in Real-World Repositories",
+    venue_detailed: "2026 IEEE/ACM International Workshop on Large Language Models for Code (LLM4Code)",
+    authors: [
+      { name: "Chihao Shen", underline: true },
+      { name: "Connor Dilgren" },
+      { name: "Purva Chiniya" },
+      { name: "Luke Griffith" },
+      { name: "Yu Ding" },
+      { name: "Yizheng Chen" },
+    ],
+    url: "https://www.arxiv.org/abs/2504.21205",
   },
   {
     venue: "ICSE'26",
