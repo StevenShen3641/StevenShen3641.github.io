@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "predeploy": "pnpm run build",
-    "deploy": "gh-pages -d out"
+    "deploy": "gh-pages -d out -r git@github.com:StevenShen3641/StevenShen3641.github.io.git"
   },
   "dependencies": {
     "@google/model-viewer": "^4.0.0",

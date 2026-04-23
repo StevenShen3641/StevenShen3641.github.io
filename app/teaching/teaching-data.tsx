@@ -9,6 +9,13 @@ export const lecturesIns: Lecture[] = []
 
 export const lecturesTA: Lecture[] = [
   {
+    title: "CMSC 414 - Computer and Network Security @UMD",
+    time: "2026 Spring",
+    // description:
+    //   "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
+    url: "",
+  },
+  {
     title: "CSC4001 - Software Engineering @CUHK(SZ)",
     time: "2025 Spring",
     // description:

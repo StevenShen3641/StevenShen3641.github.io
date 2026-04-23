@@ -2,6 +2,8 @@
 
 import React, { useEffect, useState } from "react";
 import { ImageGrid } from "app/components/image-grid";
+import { MediaList } from "./media-list";
+import { mediaItems } from "./media-data";
 // If you decide to use it again, just uncomment:
 // import ModelViewer from "./ModelViewer";
 
@@ -134,13 +136,13 @@ export default function InterestsContent() {
           House, a traditional progressive music genre (If interested, take a
           listen to{" "}
           <a
-            href="https://emergent-music.com/emergent-shores"
+            href="https://emergent-music.com/"
             target="_blank"
             rel="noreferrer"
           >
             Emergent Shores Music
           </a>
-          ). My works have been released by Soluna Music, Progressive Dreams,
+          ). My works have been released by Summer Melody, Soluna Music, 
           Sunset Horizon and other melodic music labels.
         </p>
       </div>
@@ -170,6 +172,9 @@ export default function InterestsContent() {
       </a>
 
       <p className="mb-8" />
+
+      <div className="mb-8 text-2xl font-medium tracking-tight">Media</div>
+      <MediaList mediaItems={mediaItems} />
 
       {/* Optional future section:
       <div className="mb-8 text-2xl font-medium tracking-tight">
