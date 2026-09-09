@@ -15,42 +15,42 @@ type GridImage = {
 
 const albumImages: GridImage[] = [
   {
-    src: "/photos/photo1.jpg",
+    src: "/photos/photo1.webp",
     alt: "Roman columns",
     href: "https://open.spotify.com/track/6fafcFLhx2AfUK4ERJ6i0f",
   },
   {
-    src: "/photos/photo2.jpg",
+    src: "/photos/photo2.webp",
     alt: "Big Ben",
     href: "https://open.spotify.com/track/6ldtGfNQLRB1YtG1EBlFtJ",
   },
   {
-    src: "/photos/photo3.jpg",
+    src: "/photos/photo3.webp",
     alt: "Sacré-Cœur Basilica",
     href: "https://open.spotify.com/track/0cc4FyNTyTpek3hNuoslgj",
   },
   {
-    src: "/photos/photo4.jpg",
+    src: "/photos/photo4.webp",
     alt: "Eiffel Tower",
     href: "https://open.spotify.com/track/0tuRAYSJeG3OkRrC2cfI7J",
   },
   {
-    src: "/photos/photo5.jpg",
+    src: "/photos/photo5.webp",
     alt: "Taj Mahal",
     href: "https://open.spotify.com/track/5UuhMOxcgfBgYq7YUpEE8R",
   },
   {
-    src: "/photos/photo6.jpg",
+    src: "/photos/photo6.webp",
     alt: "Colosseum",
     href: "https://open.spotify.com/track/1HhGLa3SEcLS7i3pQfGY2g",
   },
   {
-    src: "/photos/photo7.jpg",
+    src: "/photos/photo7.webp",
     alt: "Colosseum",
     href: "https://open.spotify.com/track/03m7VN3A1zSCF0hYJo41MG",
   },
   {
-    src: "/photos/photo8.jpg",
+    src: "/photos/photo8.webp",
     alt: "Colosseum",
     href: "https://open.spotify.com/track/2cfjOzSSHGp2iYCkmtbeZe",
   },
@@ -58,12 +58,12 @@ const albumImages: GridImage[] = [
 
 const podcastImages: GridImage[] = [
   {
-    src: "/photos/photo10.jpg",
+    src: "/photos/photo10.webp",
     alt: "Roman columns",
     href: "https://music.163.com/#/djradio?id=969234750",
   },
   {
-    src: "/photos/photo11.jpg",
+    src: "/photos/photo11.webp",
     alt: "Roman columns",
     href: "https://music.163.com/#/djradio?id=981091277",
   },

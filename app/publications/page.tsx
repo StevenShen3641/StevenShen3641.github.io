@@ -23,8 +23,37 @@ const publications: Publication[] = [
 
   {
     venue: "Arxiv",
-    title: "Benchmarking Correctness and Security in Multi-Turn Code Generation",
+    title: "PatchBench: Evaluating AI Agents for Vulnerability Patching",
     venue_detailed: "",
+    authors: [
+      { name: "Chihao Shen", underline: true },
+      { name: "Jiacheng Li" },
+      { name: "Aastha Mahajan" },
+      { name: "Jeffery Siyuan Tian" },
+      { name: "Yonghwi Kwon" },
+      { name: "Yizheng Chen" },
+    ],
+    url: "https://arxiv.org/abs/2609.04075",
+  },
+  {
+    venue: "Arxiv",
+    title: "Symbolon: Learning Transformations for Symbolic Execution",
+    venue_detailed: "",
+    authors: [
+      { name: "Jie Zhu" },
+      { name: "Penghui Li" },
+      { name: "Zhongxuan Li" },
+      { name: "Chihao Shen", underline: true },
+      { name: "Ziyang Li" },
+      { name: "Yizheng Chen" },
+      { name: "Kexin Pei" },
+    ],
+    url: "https://arxiv.org/abs/2606.29108",
+  },
+  {
+    venue: "EMNLP'26",
+    title: "Benchmarking Correctness and Security in Multi-Turn Code Generation",
+    venue_detailed: "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
     authors: [
       { name: "Ruchit Rawal" },
       { name: "Jeffrey Yang Fan Chiang" },
@@ -39,7 +68,7 @@ const publications: Publication[] = [
   {
     venue: "LLM4Code'26",
     title: "SecRepoBench: Benchmarking Code Agents for Secure Code Completion in Real-World Repositories",
-    venue_detailed: "2026 IEEE/ACM International Workshop on Large Language Models for Code (LLM4Code)",
+    venue_detailed: "Proceedings of the 3rd International Workshop on Large Language Models For Code",
     authors: [
       { name: "Chihao Shen", underline: true },
       { name: "Connor Dilgren" },
@@ -48,7 +77,7 @@ const publications: Publication[] = [
       { name: "Yu Ding" },
       { name: "Yizheng Chen" },
     ],
-    url: "https://www.arxiv.org/abs/2504.21205",
+    url: "https://dl.acm.org/doi/full/10.1145/3786181.3788703",
   },
   {
     venue: "ICSE'26",
@@ -79,7 +108,7 @@ const publications: Publication[] = [
       { name: "Jen-tse Huang" },
       { name: "Pinjia He" },
     ],
-    url: "https://arxiv.org/abs/2505.17455",
+    url: "https://proceedings.neurips.cc/paper_files/paper/2025/file/0a7872c9d3ce6792d033d3b0d044ba8a-Paper-Datasets_and_Benchmarks_Track.pdf",
   },
   {
     venue: "LREC-COLING'24",
